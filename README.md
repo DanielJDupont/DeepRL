@@ -9,6 +9,10 @@
 
 #### Deep Reinforcement Learning (DRL) algorithms learn optimal behaviors directly from interacting with an environment, using neural networks within a reinforcement framework to adapt to complex situations. These algorithms excel in dynamic settings—such as games, robotics, and simulations—where decision sequences are crucial. The learning process, driven by environmental rewards rather than traditional labeled datasets, allows DRL models to continuously refine and optimize actions based on outcomes.
 
+#### These algorithms are autonomous and can figure out how to operate in novel situations that are unpredictable and can do so very efficiently.
+
+#### These algorithms are limited in that the agent will tend to exploit the environment to maximize its reward in unintended ways. Training tends to be expensive and time consuming, limiting the size of simulations that can be done. These algorithms do not generalize well outside of the environment they have been trained in. There is a great deal of human oversight required for the design of the algorithms themselves (hyperparameter tuning, reward function design).
+
 #### Algorithms Covered:
 
 - **Deep Q-Network (DQN):** Implementation of the DQN algorithm which utilizes deep neural networks to estimate Q-values.
