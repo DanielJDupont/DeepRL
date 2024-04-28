@@ -106,25 +106,13 @@ If there are four possible actions, the output can be a Python list of values of
 
 There are common patterns to the notation used in deep reinforcement learning. There are variations and differences from author to author.
 
-**States**: (I like to think simplistically of a state as the situation you are in, in a game, at a given time) typically denoted as **$s$**. But some authors use **$x$** if they work a lot in control theory. If there are discrete timesteps (there often are), some authors may use **$S_t$** for the state at time **$t$**. **$s_0$** might be the state the agent finds itself in, with other states labelled as **$s_1$**, **$s_2$**, ... , etc. This explicit time labelling of states isn't necessary.
+**States**: (I like to think simplistically of a state as the situation you are in, in a game, at a given time) typically denoted as **$s$**. But some authors use **$x$** if they work a lot in control theory. If there are discrete timesteps (there often are), some authors may use **$S_t$** for the state at time **$t$**. **$s_0$** might be the state the agent finds itself in, with other states labelled as **$s_1$**, **$s_2$**, ... , etc.
 
-**Actions**: are typically denoted as **$a$** but the control theorists often denote actions as **$u$**. Actions may also be time labelled **$A_t$**. We could generally write the individual actions as **$a_n^t$** as three different actions available at timestep 0: **$a_0^0$**, **$a_1^0$**, **$a_2^0$**. Perhaps these actions change every timestep in a game with these actions being very different: **$a_0^1$**, **$a_1^1$**, **$a_2^1$**. This notation isn't necessary and it just overcomplicates things.
+**Actions**: are typically denoted as **$a$** but the control theorists often denote actions as **$u$**. Actions may also be time labelled **$A_t$**.
 
-**Value Function and Q-Function**: This is typically denoted at **$V(s)$** indicating how much reward you can expect in the long run for being in the current situation or state you are currently in. **$Q(s, a)$** indicates for your current situation, how much long term reward can you expect from each of your avaiable actions. Some authors labels these as **$V^π(s)$** and **$Q^π(s, a)$** but this is unnecessary. Some authors indicate that there is time involved with **$V_t(s)$** and **$Q_t(s, a)$** but this is also unnecessary. Many authors use the expectation operator $\mathbb{E}$ but this isn't necessary.
+**Value Function and Q-Function**: This is typically denoted at **$V(s)$** indicating how much reward you can expect in the long run for being in the current situation or state you are currently in. **$Q(s, a)$** indicates for your current situation, how much long term reward can you expect from each of your avaiable actions. Some authors labels these as **$V^π(s)$** and **$Q^π(s, a)$**. Some authors indicate that there is time involved with **$V_t(s)$** and **$Q_t(s, a)$**. Many authors use the expectation operator $\mathbb{E}$ or $\mathbb{E}_{\pi}$.
 
-$$
-V^\pi(s) = \mathbb{E}_{\pi}[G_t \mid S_t = s] = \mathbb{E}_{\pi}\left[\sum_{k=0}^\infty \gamma^k R_{t+k+1} \mid S_t = s\right]
-$$
-
-We are interested in understanding the concepts and applying this technology. We are not interested in dabbling in elaborate mathematical proofs.
-
-This be more easily understood with unnecessary symbols removed and changed, with this essentially meaning the same thing as the above, without the plethora of symbols explicity reinstating what is already obvious or implied:
-
-$$
-V(s) = \sum_{t=0}^\infty \gamma^t R_{t+1}
-$$
-
-**Policy Notation**: The function that the agent uses to make decisions or the policy function or simply the policy is denoted as **$π$**. Written more verbosely as **$π(a∣s)$** which represents the probabilies of taking each action for a single given state of $s$. An input of $s$ will generate some list of probabilities for every available $a$. Deterministic policy functions may be labelled as **$μ(s)$** by some authors, where there is only one $a$ output possible for a given $s$. Some authors use **$π_θ(a∣s)$** to indicate that there are values of θ altering the function π, but this is also unnecessary.
+**Policy Notation**: The function that the agent uses to make decisions or the policy function or simply the policy is denoted as **$π$**. Written more verbosely as **$π(a∣s)$** which represents the probabilies of taking each action for a single given state of $s$. An input of $s$ will generate some list of probabilities for every available $a$. Deterministic policy functions may be labelled as **$μ(s)$** by some authors, where there is only one $a$ output possible for a given $s$. Some authors use **$π_θ(a∣s)$** to indicate that there are values of θ altering the function π.
 
 **Reward or Return**: Typically denoted with $r$ or $R$, some choose to use $R_t$ to be explicit with time, which is not needed. Some use $G$ and $G_t$ instead of $R$. The discount factor in reward calculations is typically denoted as $γ$ but some use $β$ or other symbols.
 
