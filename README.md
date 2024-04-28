@@ -36,6 +36,31 @@ To improve my personal understanding of Deep Reinforcement Learning.
 - They do not generalize well outside of the environment in which they have been trained.
 - Human oversight is required for the design of the algorithms (neural network design, hyperparameter tuning, reward function design).
 
-#### Algorithms Covered:
+## Algorithms Covered:
+- **Deep Q-Network (DQN)**:
+DQN uses deep neural networks to approximate Q-values for action selection, stabilizing learning with techniques like experience replay and fixed Q-targets.
 
-- **Deep Q-Network (DQN):** Implementation of the DQN algorithm which utilizes deep neural networks to estimate Q-values.
+- **Double Deep Q-Network (Double DQN)**:
+Double DQN improves upon the original DQN by reducing overestimation of Q-values through the use of two separate networks to decouple the selection and evaluation of actions.
+
+- **Dueling Deep Q-Network (Dueling DQN)**:
+Dueling DQN enhances DQN by using a network architecture that separately estimates state values and the advantages of each action, improving estimation accuracy.
+
+- **Proximal Policy Optimization (PPO)**:
+PPO is a policy gradient method that facilitates stable training via a novel objective function with clipped probability ratios, optimizing policy adjustments without large performance swings.
+
+- **Asynchronous Advantage Actor-Critic (A3C)**:
+A3C accelerates and diversifies learning by running multiple agent-environment instances in parallel, each updating a global network asynchronously to improve stability and convergence.
+
+- **Monte Carlo Tree Search (MCTS) with DRL**:
+MCTS with DRL integrates the strategic depth of Monte Carlo Tree Search with deep neural networks to enhance decision-making capabilities in complex environments like board games.
+
+- **Soft Actor-Critic (SAC)**:
+SAC is an off-policy actor-critic algorithm that optimizes a stochastic policy in continuous action spaces by maximizing a trade-off between expected return and entropy, a measure of randomness in action selection.
+
+- **Trust Region Policy Optimization (TRPO)**:
+TRPO ensures robust policy improvement by employing a trust region in policy space to manage updates, thus preventing disruptive steps during learning.
+
+- **Rainbow**:
+Rainbow unifies several enhancements to DQN, including double Q-learning, prioritized experience replay, and dueling networks to significantly boost performance and learning stability.
+
