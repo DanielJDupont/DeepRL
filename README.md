@@ -1,6 +1,6 @@
-# Author: Daniel Dupont
-
-Deep Reinforcement Learning Algorithms
+# Deep Reinforcement Learning Algorithms
+## Author: Daniel Dupont
+### "Seek freedom and become captive of your desires. Seek discipline and find your liberty."
 
 Algorithms Covered:
 
