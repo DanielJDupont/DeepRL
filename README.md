@@ -1,6 +1,8 @@
 # Deep Reinforcement Learning
 
-This resource assumes you have a full computer science undergraduate education and industry experience coding as a full stack software engineer. The beginning of knowledge is the discovery of something we do not understand.
+This resource assumes you have a full computer science undergraduate education and industry experience coding as a full stack software engineer.
+
+The beginning of knowledge is the discovery of something we do not understand.
 
 ### About Daniel Dupont:
 
