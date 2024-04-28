@@ -18,7 +18,7 @@ There is nothing more interesting than watching these agents make superhuman-lik
 ---
 
 
-### Purpose of This Resource?
+### What Does This Resource Hope to Accomplish?
 
 To improve my personal understanding of Deep Reinforcement Learning.
 
