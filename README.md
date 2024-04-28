@@ -2,7 +2,7 @@
 
 ### About Daniel Dupont:
 
-I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. 
+I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning.
 
 Two of my most significant daily hobbies include learning new languages for travel and hypertrophy training for mountaineering.
 
@@ -38,7 +38,7 @@ Deep reinforcement learning is effective at solving sequential decision problems
 
 Puzzles and games are an easy way to learn and test these algorithms. There are many applications of Deep Reinforcement Learning in every field.
 
-Functions in machine learning are learned functions, not given functions. Functions in machine learning are probabilistic, giving different outputs for the same input.
+Functions in machine learning are learned functions, not given functions. Functions in machine learning may be probabilistic, giving different outputs for the same input.
 
 The goal of reinforcement learning is to learn the policy function that will suggest the best possible action for every situation that will lead to the maximum long term reward.
 
