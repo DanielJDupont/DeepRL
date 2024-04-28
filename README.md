@@ -26,9 +26,9 @@ To improve my personal understanding of Deep Reinforcement Learning.
 
 ---
 
-#### Deep Reinforcement Learning (DRL) algorithms learn directly from interacting with an environment, using neural networks with reinforcement to adapt to complex situations. These algorithms excel in settings such as games and simulations where decision sequences are crucial. The learning process is driven by rewards rather than traditional labeled datasets.
+#### Deep Reinforcement Learning (DRL) algorithms learn directly from interacting with an environment, using neural networks with reinforcement to adapt to complex situations. These algorithms excel in settings such as games and simulations with decisions. The learning process is driven by rewards rather than traditional labeled datasets.
 
-#### These algorithms are autonomous and can figure out how to operate in novel situations that are unpredictable and can do so very efficiently.
+#### These algorithms are autonomous and can operate in novel situations very efficiently.
 
 #### These algorithms are limited:
 - The agent tends to exploit the environment in unintended ways.
