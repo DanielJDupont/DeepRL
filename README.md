@@ -10,7 +10,7 @@ This resource assumes you have a full computer science undergraduate education a
 
 ### About Daniel Dupont:
 
-I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning.
+I am making a commitment to writing a comprehensive resource on deep reinforcement learning.
 
 Two of my most significant daily hobbies include learning new languages for travel and hypertrophy training for mountaineering.
 
@@ -20,7 +20,7 @@ There is nothing more interesting than watching these agents make superhuman-lik
 
 ##### What Does This Resource Hope to Accomplish?
 
-To improve my personal understanding of Deep Reinforcement Learning.
+To improve my personal understanding of deep reinforcement learning.
 
 ---
 
@@ -34,7 +34,7 @@ To improve my personal understanding of Deep Reinforcement Learning.
 
 ### Introduction:
 
-Deep Reinforcement Learning (DRL) algorithms learn directly from interacting with an environment, using deep learning with reinforcement learning. These algorithms excel in settings such as games and simulations with decisions. The learning process is driven by rewards rather than traditional labeled datasets.
+Deep reinforcement learning (DRL) algorithms learn directly from interacting with an environment, using deep learning with reinforcement learning. Deep reinforcement learning excels in settings such as games and simulations with decisions. The learning process is driven by rewards rather than traditional labeled datasets.
 
 Deep learning is about approximating functions using neural networks.
 
@@ -42,11 +42,15 @@ Reinforcement learning is about learning from trial and error without pre-existi
 
 Deep reinforcement learning is ideal for situations where you have something (an agent) making decisions in a complex enviroment.
 
-Deep reinforcement learning is effective at solving sequential decision problems (or optimal control problems). Countless real world environments fit this type of problem where a sequence of decisions are made and any one bad decision can be very costly.
+Deep reinforcement learning is effective at solving sequential decision problems (or optimal control problems). Countless real world environments fit this type of problem where a series of decisions are made and any one bad decision can be very costly.
 
-Puzzles and games are an easy way to learn and test these algorithms. There are many applications of Deep Reinforcement Learning in every field.
+Puzzles and games are an easy way to learn and test these algorithms. There are many applications of deep reinforcement learning in every field.
 
-Functions in machine learning are learned functions, not given functions. Functions in machine learning may be probabilistic, giving different outputs for the same input.
+There are learned functions and given functions. In machine learning, functions are learned from data rather than given. For example, Newton's second law of motion (F = ma) is a given function with a known relationship between force, mass, and acceleration. In contrast, a learned function like a line of best fit is determined by analyzing data points.
+
+There are deterministic functions and probabilistic functions. Functions in machine learning may be probabilistic, giving different outputs for the same input. Deterministic functions give the same consistent output for the same repeated input.
+
+Functions in machine learning may be learned and probabilistic.
 
 The goal of reinforcement learning is to learn the policy function that will suggest the best possible action for every situation that will lead to the maximum long term reward.
 
@@ -54,9 +58,9 @@ These algorithms are autonomous and can operate in novel situations very efficie
 
 These algorithms are limited:
 
-- The agent tends to exploit the environment in unintended ways.
+- The agent tends to exploit the environment in unintended ways to maximize rewards.
 - Training is expensive and time-consuming.
-- They do not generalize well outside of the environment in which they have been trained.
+- They generally do not work well outside of the environment in which they have been trained.
 - Human oversight is required for the design of the algorithms (neural network design, hyperparameter tuning, reward function design).
 
 ---
