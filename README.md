@@ -1,3 +1,5 @@
+# Author: Daniel Dupont
+
 Deep Reinforcement Learning Algorithms
 
 Algorithms Covered.
