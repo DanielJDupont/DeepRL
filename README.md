@@ -1,10 +1,16 @@
 # Deep Reinforcement Learning Algorithms
 
-#### Author: Daniel Dupont
+### About Daniel Dupont
 
-#### I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. I also enjoy learning new languages and hypertrophy training (in the context of mountaineering objectives like Denali) on a daily basis.
+#### I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. I also enjoy learning new languages and hypertrophy training on a daily basis.
 
 > ***Seek freedom and become captive. Seek discipline and become free.***
+---
+
+### Why Learn Deep Reinforcement Learning Algorithms?
+
+Deep Reinforcement Learning excels in complex decision making environments, especially in strategic environments with agents where sequential actions determine outcomes. There is nothing more interesting to me than seeing these agents making superhuman like decisions in accomplishing their goals.
+
 ---
 
 #### Deep Reinforcement Learning (DRL) algorithms learn optimal behaviors directly from interacting with an environment, using neural networks within a reinforcement framework to adapt to complex situations. These algorithms excel in dynamic settings—such as games, robotics, and simulations—where decision sequences are crucial. The learning process, driven by environmental rewards rather than traditional labeled datasets, allows DRL models to continuously refine and optimize actions based on outcomes.
