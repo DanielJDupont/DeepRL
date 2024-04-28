@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning Algorithms
+# Deep Reinforcement Learning
 
 ### About Daniel Dupont
 
@@ -7,7 +7,7 @@
 > ***Seek freedom and become captive. Seek discipline and become free.***
 ---
 
-### Why Learn Deep Reinforcement Learning Algorithms?
+### Why Learn Deep Reinforcement Learning?
 
 Deep Reinforcement Learning excels in complex decision making environments, especially in strategic environments with agents where sequential actions determine outcomes. There is nothing more interesting to me than seeing these agents making superhuman like decisions in accomplishing their goals.
 
