@@ -14,11 +14,11 @@ To improve my personal understanding of Deep Reinforcement Learning.
 
 ---
 
-> **_Seek freedom and become captive. Seek discipline and become free._**
+> **_"Seek freedom and become captive. Seek discipline and become free."_**
 
-> **_I am only passionately curious._**
+> **_"I am only passionately curious."_**
 
-> **_A person needs new experiences. Without change, something sleeps inside us, and seldom awakens._**
+> **_"A person needs new experiences. Without change, something sleeps inside us, and seldom awakens."_**
 
 ---
 
