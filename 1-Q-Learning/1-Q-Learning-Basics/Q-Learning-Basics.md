@@ -9,3 +9,9 @@ The agent uses the policy function to make a decision. The policy function takes
 Basic Q learning generally is determinstic, where the agent simply uses the policy function to select which one action has the highest score compared to all other actions for a given situation.
 
 Q learning can be made probabilsitc, the policy function can be modified so the agent selects actions probabilsitcally from a range of available actions for a situation. Actions with higher Q scores would be selected more often than actions with lower Q scores. This promotes more exploration but slows convergence towards the most optimal solution.
+
+This is the most basic policy function. A policy function uses a π symbol as opposed to an f symbol to make it explicit it is for the policy or decision making of the agent. Where for a given situation or state s, the action a1 is always output:
+
+$$
+\pi(s) = a_1
+$$

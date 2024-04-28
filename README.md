@@ -48,9 +48,24 @@ Puzzles and games are an easy way to learn and test these algorithms. There are 
 
 ### Functions and the Policy Function:
 
-There are learned functions and given functions. In machine learning, functions are learned from data rather than given. For example, Newton's second law of motion (F = ma) is a given function with a known relationship between force, mass, and acceleration. In contrast, a learned function like a line of best fit is determined by analyzing data points.
+There are learned functions and given functions. In machine learning, functions are learned from data rather than given. For example, Newton's second law of motion $F = ma$ is a given function with a known relationship between force, mass, and acceleration. In contrast, a learned function like a line of best fit is determined by analyzing data points.
+
+An example of a given deterministic function:
+
+$$
+f(x) = 2x + 3
+$$
 
 There are deterministic functions and probabilistic / stochastic functions. Functions in machine learning may be probabilistic, giving different outputs for the same input. Deterministic functions give the same consistent output for the same repeated input.
+
+An example of a given probabilistic function where there is a 50% chance to select one of two actions:
+
+$$
+f(a) = \begin{cases}
+0.5 & \text{if } a = a_1 \\
+0.5 & \text{if } a = a_2
+\end{cases}
+$$
 
 Functions in machine learning may be learned and probabilistic.
 
