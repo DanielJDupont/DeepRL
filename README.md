@@ -15,6 +15,15 @@ There is nothing more interesting to me than seeing these agents making superhum
 
 ---
 
+
+### Purpose of This Resource?
+
+To improve my personal understanding of Deep Reinforcement Learning.
+
+> ***A person needs new experiences. Without change, something sleeps inside us, and seldom awakens.***
+
+---
+
 #### Deep Reinforcement Learning (DRL) algorithms learn directly from interacting with an environment, using neural networks with reinforcement to adapt to complex situations. These algorithms excel in settings such as games and simulations where decision sequences are crucial. The learning process is driven by rewards rather than traditional labeled datasets.
 
 #### These algorithms are autonomous and can figure out how to operate in novel situations that are unpredictable and can do so very efficiently.
