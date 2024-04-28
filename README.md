@@ -20,7 +20,7 @@ There is nothing more interesting than watching these agents make superhuman-lik
 
 ##### What Does This Resource Hope to Accomplish?
 
-To learn to apply these techniques to solve small scale systems to better find and understand near perfect decision making. Applications mainly to relatively simple games to be pragmatic, but nontheless still interesting.
+To learn to apply these techniques to solve small scale systems to better find and understand near perfect decision making. Applications mainly to relatively simple games to be pragmatic, but still interesting.
 
 ---
 
@@ -55,6 +55,8 @@ There are deterministic functions and probabilistic / stochastic functions. Func
 Functions in machine learning may be learned and probabilistic.
 
 The goal of reinforcement learning is to learn the policy function that will suggest the best possible action for every situation that will lead to the maximum long term reward. The policy function can be deterministic or probabilistic. If the policy function is probabilistic, the policy function will suggest the best possible probabilities with which each action should be chosen in any given situation.
+
+### Work in Progress:
 
 These algorithms are autonomous and can operate in novel situations very efficiently.
 
