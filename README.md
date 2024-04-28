@@ -8,9 +8,9 @@
 > ***Seek freedom and become captive. Seek discipline and become free.***
 ---
 
-### Why Learn Deep Reinforcement Learning?
+### Why Should You Learn Deep Reinforcement Learning?
 
-There is nothing more interesting to me than watching these agents make superhuman-like decisions to accomplish their goals.
+There is nothing more interesting than watching these agents make superhuman-like decisions to accomplish their goals.
 
 
 > ***I am only passionately curious.***
