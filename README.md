@@ -2,7 +2,9 @@
 
 ### About Daniel Dupont:
 
-I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. Two of my most significant daily hobbies include learning new languages for travel and hypertrophy training for mountaineering.
+I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. 
+
+Two of my most significant daily hobbies include learning new languages for travel and hypertrophy training for mountaineering.
 
 ##### Why Should You Learn Deep Reinforcement Learning?
 
