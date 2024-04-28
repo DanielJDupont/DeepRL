@@ -21,7 +21,7 @@ There is nothing more interesting to me than seeing these agents making superhum
 - The agent will tend to exploit the environment in unintended ways.
 - Training tends to be expensive and time consuming, limiting the simulations that can be done.
 - These algorithms do not generalize well outside of the environment they have been trained in.
-- There is a great deal of human oversight required for the design of the algorithms themselves (hyperparameter tuning, reward function design).
+- There is a great deal of human oversight required for the design of the algorithms themselves (neural net design, hyperparameter tuning, reward function design).
 
 #### Algorithms Covered:
 
