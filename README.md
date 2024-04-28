@@ -2,7 +2,7 @@
 
 ### Author: Daniel Dupont
 
-### "Seek freedom and become captive. Seek discipline and become free."
+### Seek freedom and become captive. Seek discipline and become free.
 
 ---
 
