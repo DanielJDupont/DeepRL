@@ -112,7 +112,9 @@ There are common patterns to the notation used in deep reinforcement learning. T
 
 **Value Function and Q-Function**: This is typically denoted at **$V(s)$** indicating how much reward you can expect in the long run for being in the current situation or state you are currently in. **$Q(s, a)$** indicates for your current situation, how much long term reward can you expect from each of your avaiable actions. Some authors labels these as **$V^π(s)$** and **$Q^π(s, a)$** but this is unnecessary. Some authors indicate that there is time involved with **$V_t(s)$** and **$Q_t(s, a)$** but this is also unnecessary. Many authors use the expectation operator $\mathbb{E}$ but this isn't necessary.
 
-$$V^\pi(s) = \mathbb{E}_{\pi}[G_t \mid S_t = s] = \mathbb{E}_{\pi} \left[\sum_{k=0}^\infty \gamma^k R_{t+k+1} \mid S_t = s\right]$$
+$$
+V^\pi(s) = {\pi}[G_t \mid S_t = s] = {\pi} \left[\sum_{k=0}^\infty \gamma^k R_{t+k+1} \mid S_t = s\right]
+$$
 
 We are interested in understanding the concepts and applying this technology. We are not interested in dabbling in elaborate mathematical proofs.
 
