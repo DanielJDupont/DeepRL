@@ -1,5 +1,7 @@
 # Deep Reinforcement Learning
 
+This resource assumes you have a full computer science undergraduate education and industry experience coding as a full stack software engineer.
+
 ### About Daniel Dupont:
 
 I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning.
