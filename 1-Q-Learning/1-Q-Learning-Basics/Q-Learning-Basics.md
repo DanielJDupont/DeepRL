@@ -10,7 +10,7 @@ Basic Q learning generally is determinstic, where the agent simply uses the poli
 
 Q learning can be made probabilsitc, the policy function can be modified so the agent selects actions probabilsitcally from a range of available actions for a situation. Actions with higher Q scores would be selected more often than actions with lower Q scores. This promotes more exploration but slows convergence towards the most optimal solution.
 
-This is the most basic policy function. A policy function uses a π symbol as opposed to an f symbol to make it explicit it is for the policy or decision making of the agent. Where for a given situation or state s, the action a1 is always output:
+This is the most basic policy function. A policy function uses a $π$ symbol as opposed to an $f$ symbol to make it explicit it is for the policy or decision making of the agent. Where for a given situation or state $s$, the action $a_1$ is always output:
 
 $$
 \pi(s) = a_1

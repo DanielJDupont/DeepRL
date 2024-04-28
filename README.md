@@ -46,7 +46,7 @@ Deep reinforcement learning is effective at solving sequential decision problems
 
 Puzzles and games are an easy way to learn and test these algorithms. There are many applications of deep reinforcement learning in every field.
 
-### Functions and the Policy Function:
+### Basic Function Categories:
 
 There are learned functions and given functions. In machine learning, functions are learned from data rather than given. For example, Newton's second law of motion $F = ma$ is a given function with a known relationship between force, mass, and acceleration. In contrast, a learned function like a line of best fit is determined by analyzing data points.
 
@@ -70,6 +70,37 @@ $$
 Functions in machine learning may be learned and probabilistic.
 
 The goal of reinforcement learning is to learn the policy function that will suggest the best possible action for every situation that will lead to the maximum long term reward. The policy function can be deterministic or probabilistic. If the policy function is probabilistic, the policy function will suggest the best possible probabilities with which each action should be chosen in any given situation.
+
+An example of a learned determinstic function where $\beta_0$ and $\beta_1$ are calculated by some other function based on given data:
+
+$$
+f(x) = \beta_0 + \beta_1 x
+$$
+
+An example of a learned probabilistic function, the logistic regression equation, it has only two possible outcomes $y = 0$ and $y = 1$. It makes no sense to attempt to calculate more than two outcomes for this equation ($y = 2$, $y= 3$, ...). The division $\frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}}$is used to ensure an output between 0 and 1. $\beta_0$ and $\beta_1$ are learned, calculated by some other function based on data. $P$ is the final result, the probability, a number between 0 and 1. By convention we only calculate $y = 1$ since it's obvious what $y = 0$ will be. A value such as 40 health points for $x$ can be subbed into the equation, which may yield a probability of 0.731 or a 73.1% chance of $y$ being 1 as opposed to 0. This could mean a 73.1% chance to attack ($y = 1$) or a 26.9% chance to defend ($y = 0$) if you are at 40 hitpoints:
+
+$$
+P(y = 1 | x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}}
+$$
+
+A more general learned probabilistic equation, the softmax function for multi-class classification, the nuances of the equation are not important right now:
+
+$$
+P(y = k | \mathbf{x}) = \frac{e^{\mathbf{w}_k^T \mathbf{x} + b_k}}{\sum_{j=1}^K e^{\mathbf{w}_j^T \mathbf{x} + b_j}}
+$$
+
+The above equation is available in PyTorch simply as:
+
+```python
+.softmax(x)
+```
+
+If there are four possible actions, the output can be a Python list of values of probabilities to take each action in a given situation $x$. A given situation or state might be as simple as just the number of hitpoints we have.
+
+```python
+## Attack, Defend, Heal, Flee
+[0.10, 0.15, 0.50, 0.25]
+```
 
 ### Work in Progress:
 
