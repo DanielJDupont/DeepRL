@@ -20,7 +20,7 @@ There is nothing more interesting than watching these agents make superhuman-lik
 
 ##### What Does This Resource Hope to Accomplish?
 
-To improve my personal understanding of deep reinforcement learning.
+To learn to apply these techniques to solve small scale systems to better find and understand near perfect decision making. Applications mainly to relatively simple games to be pragmatic, but nontheless still interesting.
 
 ---
 
