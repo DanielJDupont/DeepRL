@@ -30,9 +30,9 @@ To improve my personal understanding of Deep Reinforcement Learning.
 
 #### These algorithms are limited:
 - The agent will tend to exploit the environment in unintended ways.
-- Training tends to be expensive and time consuming, limiting the simulations that can be done.
-- These algorithms do not generalize well outside of the environment they have been trained in.
-- There is a great deal of human oversight required for the design of the algorithms themselves (neural net design, hyperparameter tuning, reward function design).
+- Training tends to be expensive and time consuming.
+- Do not generalize well outside of the environment they have been trained in.
+- Human oversight required for the design of the algorithms (neural net design, hyperparameter tuning, reward function design).
 
 #### Algorithms Covered:
 
