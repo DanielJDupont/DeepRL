@@ -50,9 +50,9 @@ Functions in machine learning are learned functions, not given functions. Functi
 
 The goal of reinforcement learning is to learn the policy function that will suggest the best possible action for every situation that will lead to the maximum long term reward.
 
-#### These algorithms are autonomous and can operate in novel situations very efficiently.
+These algorithms are autonomous and can operate in novel situations very efficiently.
 
-#### These algorithms are limited:
+These algorithms are limited:
 
 - The agent tends to exploit the environment in unintended ways.
 - Training is expensive and time-consuming.
