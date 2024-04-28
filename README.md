@@ -2,7 +2,7 @@
 
 ### About Daniel Dupont
 
-#### I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. I also enjoy learning new languages and hypertrophy training on a daily basis.
+#### I am making a commitment to writing a comprehensive resource on Deep Reinforcement Learning. I also enjoy learning new languages for travel and hypertrophy training for mountaineering.
 
 > ***Seek freedom and become captive. Seek discipline and become free.***
 ---
