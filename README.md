@@ -11,6 +11,8 @@
 
 There is nothing more interesting to me than seeing these agents making superhuman like decisions in accomplishing their goals.
 
+> ***I am only passionately curious.***
+
 ---
 
 #### Deep Reinforcement Learning (DRL) algorithms learn directly from interacting with an environment, using neural networks with reinforcement to adapt to complex situations. These algorithms excel in settings such as games and simulations where decision sequences are crucial. The learning process is driven by rewards rather than traditional labeled datasets.
