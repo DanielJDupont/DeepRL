@@ -88,7 +88,7 @@ $$
 
 There are more general learned probabilistic equations, like the softmax function, where we can do things like $y = 2$, $y= 3$, ... , etc. Where we can have more than two possible actions for our agent to take in a given state.
 
-If there are four possible actions, the output can be a Python list of values of probabilities to take each action in a given situation $x$. A given situation or state might be as simple as just the number of hitpoints we have.
+If there are four possible actions, the output can be a Python list of probabilities to take each action in a given situation $x$. A given situation or state might be as simple as just the number of hitpoints we have.
 
 ```python
 ## Attack, Defend, Heal, Flee
