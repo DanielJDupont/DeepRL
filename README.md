@@ -1,4 +1,5 @@
 # Deep Reinforcement Learning
+
 This is a very early work in progress that I am updating on a daily basis as I read the literature. The intent is to make this resource concise and pragmatic with easy to understand applications to simple games.
 
 This resource assumes you have a full computer science undergraduate education and industry experience coding as a full stack software engineer.
@@ -88,7 +89,7 @@ $$
 
 There are more general learned probabilistic equations, like the softmax function, where we can do things like $y = 2$, $y= 3$, ... , etc. Where we can have more than two possible actions for our agent to take in a given state.
 
-If there are four possible actions, the output can be a Python list of probabilities to take each action in a given situation $x$. A given situation or state might be as simple as just the number of hitpoints we have.
+If there are four possible actions, the output can be a Python list of probabilities to take each action in a given situation $x$. A given situation or state might be as simple as just the number of hitpoints we have, where $x = 40$ might give us:
 
 ```python
 ## Attack, Defend, Heal, Flee
@@ -115,15 +116,13 @@ There are common patterns to the notation used in deep reinforcement learning. T
 
 **Reward or Return**: Typically denoted with $r$ or $R$, some choose to use $R_t$ to be explicit with time, which is not needed. Some use $G$ and $G_t$ instead of $R$. The discount factor in reward calculations is typically denoted as $γ$ but some use $β$ or other symbols.
 
-
-
 ### Markov Decision Processes:
 
 #### The Markov Property Depends Entirely on the Current State and Has No Memory of Past States:
 
-Reinforcement learning problems or sequential decision problems can be modelled as Markov decision processes (MDPs). These have the Markov propety where the next state depends on upon the current state. 
+Reinforcement learning problems or sequential decision problems can be modelled as Markov decision processes (MDPs). These have the Markov propety where the next state depends on upon the current state.
 
-Chess is an intuitive example of something that is a Markov Decision Process. 
+Chess is an intuitive example of something that is a Markov Decision Process.
 
 There is however a rule in chess that violates the Markov property called the **threehold repetition rule** where a game can be declared a draw if the same position occurs three times.
 
