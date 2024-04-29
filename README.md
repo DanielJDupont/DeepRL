@@ -26,10 +26,6 @@ To learn to apply these techniques to solve small scale systems to better find a
 
 > **_"Seek freedom and become captive. Seek discipline and become free."_**
 
-> **_"I am only passionately curious."_**
-
-> **_"A person needs new experiences. Without change, something sleeps inside us, and seldom awakens."_**
-
 ---
 
 ### Introduction:
@@ -45,6 +41,12 @@ Deep reinforcement learning is ideal for situations where you have something (an
 Deep reinforcement learning is effective at solving sequential decision problems (or optimal control problems). Countless real world environments fit this type of problem where a series of decisions are made and any one bad decision can be very costly.
 
 Puzzles and games are an easy way to learn and test these algorithms. There are many applications of deep reinforcement learning in every field.
+
+---
+
+> **_"I am only passionately curious."_**
+
+---
 
 ### Basic Function Categories:
 
@@ -101,6 +103,12 @@ If there are four possible actions, the output can be a Python list of values of
 ## Attack, Defend, Heal, Flee
 [0.10, 0.15, 0.50, 0.25]
 ```
+
+---
+
+> **_"A person needs new experiences. Without change, something sleeps inside us, and seldom awakens."_**
+
+---
 
 ### Basic Function Notation:
 
