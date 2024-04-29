@@ -16,6 +16,13 @@ I am making a commitment to writing a comprehensive resource on deep reinforceme
 
 Two of my most significant daily hobbies include learning new languages for travel and hypertrophy training for mountaineering.
 
+### Suggested Tools:
+
+Python and VSCode with these Extensions:
+
+- Black Formatter
+- Markdown Preview Enchanced
+
 ### Introduction:
 
 Deep reinforcement learning (DRL) algorithms learn directly from interacting with an environment, using deep learning with reinforcement learning. Deep reinforcement learning excels in settings such as games and simulations with decisions. The learning process is driven by rewards rather than traditional labeled datasets.
