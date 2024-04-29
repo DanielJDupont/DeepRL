@@ -125,6 +125,20 @@ There are common patterns to the notation used in deep reinforcement learning. T
 
 **Reward or Return**: Typically denoted with $r$ or $R$, some choose to use $R_t$ to be explicit with time, which is not needed. Some use $G$ and $G_t$ instead of $R$. The discount factor in reward calculations is typically denoted as $γ$ but some use $β$ or other symbols.
 
+
+
+### Markov Decision Processes:
+
+#### The Markov Property Depends Entirely on the Current State and Has No Memory of Past States:
+
+Reinforcement learning problems or sequential decision problems can be modelled as Markov decision processes (MDPs). These have the Markov propety where the next state depends on upon the current state. 
+
+Chess is an intuitive example of something that is a Markov Decision Process. 
+
+There is however a rule in chess that violates the Markov property called the **threehold repetition rule** where a game can be declared a draw if the same position occurs three times.
+
+We can get around this by keeping some finite record of the past six or so states, in our current state. This is an approach we can use to take what are intuitively non-Markovian elements in our problems and give them the Markov property in our implementation, so we can actually solve with them.
+
 ### Work in Progress:
 
 These algorithms are autonomous and can operate in novel situations very efficiently.
