@@ -16,20 +16,6 @@ I am making a commitment to writing a comprehensive resource on deep reinforceme
 
 Two of my most significant daily hobbies include learning new languages for travel and hypertrophy training for mountaineering.
 
-##### Why Should You Learn Deep Reinforcement Learning?
-
-There is nothing more interesting than watching these agents make superhuman-like decisions to accomplish their goals.
-
-##### What Does This Resource Hope to Accomplish?
-
-To learn to apply these techniques to solve small scale systems to better find and understand near perfect decision making. Applications mainly to relatively simple games to be pragmatic, but still interesting.
-
----
-
-> **_"Seek freedom and become captive. Seek discipline and become free."_**
-
----
-
 ### Introduction:
 
 Deep reinforcement learning (DRL) algorithms learn directly from interacting with an environment, using deep learning with reinforcement learning. Deep reinforcement learning excels in settings such as games and simulations with decisions. The learning process is driven by rewards rather than traditional labeled datasets.
@@ -43,12 +29,6 @@ Deep reinforcement learning is ideal for situations where you have something (an
 Deep reinforcement learning is effective at solving sequential decision problems (or optimal control problems). Countless real world environments fit this type of problem where a series of decisions are made and any one bad decision can be very costly.
 
 Puzzles and games are an easy way to learn and test these algorithms. There are many applications of deep reinforcement learning in every field.
-
----
-
-> **_"I am only passionately curious."_**
-
----
 
 ### Basic Function Categories:
 
@@ -96,12 +76,6 @@ If there are four possible actions, the output can be a Python list of probabili
 [0.10, 0.15, 0.50, 0.25]
 ```
 
----
-
-> **_"A person needs new experiences. Without change, something sleeps inside us, and seldom awakens."_**
-
----
-
 ### Basic Function Notation:
 
 There are common patterns to the notation used in deep reinforcement learning. There are variations and differences from author to author.
@@ -127,3 +101,9 @@ Chess is an intuitive example of something that is a Markov Decision Process.
 There is however a rule in chess that violates the Markov property called the **threehold repetition rule** where a game can be declared a draw if the same position occurs three times.
 
 We can get around this by keeping some finite record of the past six or so states, in our current state. This is an approach we can use to take what are intuitively non-Markovian elements in our problems and give them the Markov property in our implementation, so we can actually solve with them.
+
+---
+
+> **_"A person needs new experiences. Without change, something sleeps inside us, and seldom awakens."_**
+
+---
