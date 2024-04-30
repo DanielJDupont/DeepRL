@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning
 
-This is a very early work in progress that I am updating on a daily basis as I read the literature. The intent is to make this resource concise and pragmatic with easy to understand applications to simple games.
+This is a very early work in progress that I am updating on a daily basis as I read the literature. The intent is to make this resource concise and pragmatic with easy to understand applications to simple games. There will be drastic changes and updates until I figure out how to best structure this.
 
 This resource assumes you have a full computer science undergraduate education and industry experience coding as a full stack software engineer.
 
