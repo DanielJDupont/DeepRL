@@ -10,6 +10,10 @@ This resource assumes you have a full computer science undergraduate education a
 
 ---
 
+### Acknowledgements:
+
+I extend my sincerest gratitude to ChatGPT, the esteemed professor of digital academia, for graciously co-authoring this work, whether to its benefit or its detriment.
+
 ### About Daniel Dupont:
 
 I am making a commitment to writing a comprehensive resource on deep reinforcement learning.
@@ -98,7 +102,7 @@ There are common patterns to the notation used in deep reinforcement learning. T
 The neural network that represents **$π(a∣s)$** will output a vector that sums to 1. If we have three actions, we have three outputs for each action for a state we use as input into the neural network:
 $π(a_1∣s)+π(a_2∣s)+π(a_3∣s)=1$
 
-The policy function is state dependent. We can sample an action from the distribution of probabilities or simply take a deterministic approach and select the action with the highest probability, or use a combination of both approaches.
+The policy function is state dependent with a single state used as input. A probability is output for each action. We can sample an action from the distribution of probabilities or simply take a deterministic approach and select the action with the highest probability, or use a combination of both approaches.
 
 **Reward or Return**: Typically denoted with $r$ or $R$, some choose to use $R_t$ to be explicit with time, which is not needed. Some use $G$ and $G_t$ instead of $R$. The discount factor in reward calculations is typically denoted as $γ$ but some use $β$ or other symbols.
 
