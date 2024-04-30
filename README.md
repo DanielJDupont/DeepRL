@@ -22,18 +22,21 @@ Two of my most significant daily hobbies include learning new languages for trav
 
 ### About Suffering And Consistency:
 
-Consistent and sustained hard work is vital to accomplishing any worthwhile endevaor. Typically these goals end up being far harder and taking far longer than originally anticipated, and often are confounded with feelings of uncertainty if it actually can be achieved. These are common obstacles you will face and need to push past, even if for no other reason than to accomplish the objective for its own sake.
+Consistent and sustained hard work is vital to accomplishing any worthwhile endevaor. Typically these goals end up being far harder and taking far longer than originally anticipated, and often are confounded with feelings of uncertainty. These are common obstacles you will face and need to push past, even if for no other reason than to accomplish the objective for its own sake.
 
-Whether it is making the transition from being a worker to running a company. 
+I find it works well to devote several hours each day at least 5 days a week toward multi-month and multi-year goals. Some things like lifestyle changes, like calorie counting, have to be done on a continuous basis for life.
 
-Whether it is losing over 30 lbs of weight then packing on muscle.
+You will be met with consistent failures after long bouts of hard work, for months and probably years. It is on you to quickly pick yourself up, correct whatever you need to, even if to only marginally improve your next attempt, and go again regardless of the uncertainties.
+
+Whether it is making the push from being a worker to running a company.
+
+Whether it is losing over 30 lbs of weight then packing on lean muscle by rotating between hypercaloric and hypocaloric phases.
 
 Whether it is achieving mountaineering objectives like summiting Denali.
 
 Whether it is learning an entirely new langauge to a fluent conversational level.
 
 The same all goes for learning deep reinforcement learning.
-
 
 ### Suggested Tools:
 
