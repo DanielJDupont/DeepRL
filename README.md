@@ -22,21 +22,21 @@ Two of my most significant daily hobbies include learning new languages for trav
 
 ### About Suffering And Consistency:
 
-Consistent and sustained hard work is vital to accomplishing any worthwhile endevaor. Typically these goals end up being far harder and taking far longer than originally anticipated, and often are confounded with feelings of uncertainty. These are common obstacles you will face and need to push past, even if for no other reason than to accomplish the objective for its own sake.
+Consistent and sustained hard work is vital to achieving any worthwhile end. Typically, these goals end up being far harder and taking far longer than originally anticipated, and they are often confounded with feelings of uncertainty. These are common obstacles you will face and need to push past, even if for no other reason than to accomplish the objective for its own sake.
 
-I find it works well to devote several hours each day at least 5 days a week toward multi-month and multi-year goals. Some things like lifestyle changes, like calorie counting, have to be done on a continuous basis for life.
+I find it works well to devote several hours each day, at least five days a week, toward multi-month and multi-year goals. Some things, like lifestyle changes like calorie counting, have to be done on a continuous basis throughout life.
 
-You will be met with consistent failures after long bouts of hard work, for months and probably years. It is on you to quickly pick yourself up, correct whatever you need to, even if to only marginally improve your next attempt, and go again regardless of the uncertainties.
+You will be met with consistent failures after long bouts of hard work for months and probably years. It is on you to quickly pick yourself up, correct whatever you need to, even if it only marginally improves your next attempt, and go again regardless of the uncertainties.
 
 Whether it is making the push from being a worker to running a company.
 
-Whether it is losing over 30 lbs of weight then packing on lean muscle by rotating between hypercaloric and hypocaloric phases.
+Whether it is losing over 30 pounds and then packing on lean muscle by rotating between hypercaloric and hypocaloric phases.
 
 Whether it is achieving mountaineering objectives like summiting Denali.
 
-Whether it is learning an entirely new langauge to a fluent conversational level.
+Whether it is learning an entirely new language to a fluent conversational level.
 
-The same all goes for learning deep reinforcement learning.
+The same goes for deep reinforcement learning.
 
 ### Suggested Tools:
 
