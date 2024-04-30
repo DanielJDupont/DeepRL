@@ -87,7 +87,7 @@ If there are four possible actions, the output can be a Python list of probabili
 
 There are common patterns to the notation used in deep reinforcement learning. There are variations and differences from author to author.
 
-**States**: (I like to think simplistically of a state as the situation you are in, in a game, at a given time) typically denoted as **$s$**. But some authors use **$x$** if they work a lot in control theory. If there are discrete timesteps (there often are), some authors may use **$S_t$** for the state at time **$t$**. **$s_0$** might be the state the agent finds itself in, with other states labelled as **$s_1$**, **$s_2$**, ... , etc.
+**States**: (I like to think simplistically of a state as the situation you are in) typically denoted as **$s$**. But some authors use **$x$** if they work a lot in control theory. If there are discrete timesteps (there often are), some authors may use **$S_t$** for the state at time **$t$**. **$s_0$** might be the state the agent finds itself in, with other states labelled as **$s_1$**, **$s_2$**, ... , etc. **$s_{t+1}$** means the next state from **$s_t$**, with **$s_{t+1}$** often written as **$s_{t^′}$**.
 
 **Actions**: are typically denoted as **$a$** but the control theorists often denote actions as **$u$**. Actions may also be time labelled **$A_t$**.
 
@@ -102,12 +102,12 @@ The policy function is state dependent. We can sample an action from the distrib
 
 **Reward or Return**: Typically denoted with $r$ or $R$, some choose to use $R_t$ to be explicit with time, which is not needed. Some use $G$ and $G_t$ instead of $R$. The discount factor in reward calculations is typically denoted as $γ$ but some use $β$ or other symbols.
 
-**Summary List of Some Basic Symbols:**
-**$s$** **$x$** **$S_t$** **$s_t$**
-**$A$** **$A_t$** **$a$** **$u$**
-**$π$** **$π_θ$** **$π(s)$** **$μ(s)$** **$π(a∣s)$**
-**$V(s)$** **$V^π(s)$**
-**$Q(s, a)$** **$Q^π(s, a)$**
+**Summary of Some Basic Symbols:**
+**$s$** &nbsp;&nbsp;&nbsp; **$x$** &nbsp;&nbsp;&nbsp; **$S_t$** &nbsp;&nbsp;&nbsp; **$s_t$** &nbsp;&nbsp;&nbsp; **$s_{t+1}$** &nbsp;&nbsp;&nbsp; **$s_{t^′}$**
+**$A$** &nbsp;&nbsp;&nbsp; **$A_t$** &nbsp;&nbsp;&nbsp; **$a$** &nbsp;&nbsp;&nbsp; **$u$**
+**$π$** &nbsp;&nbsp;&nbsp; **$π_θ$** &nbsp;&nbsp;&nbsp; **$π(s)$** &nbsp;&nbsp;&nbsp; **$μ(s)$** &nbsp;&nbsp;&nbsp; **$π(a∣s)$**
+**$V(s)$** &nbsp;&nbsp;&nbsp; **$V^π(s)$**
+**$Q(s, a)$** &nbsp;&nbsp;&nbsp; **$Q^π(s, a)$**
 
 ### Markov Decision Processes:
 
