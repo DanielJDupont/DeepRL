@@ -93,9 +93,21 @@ There are common patterns to the notation used in deep reinforcement learning. T
 
 **Value Function and Q-Function**: This is typically denoted at **$V(s)$** indicating how much reward you can expect in the long run for being in the current situation or state you are currently in. **$Q(s, a)$** indicates for your current situation, how much long term reward can you expect from each of your avaiable actions. Some authors labels these as **$V^π(s)$** and **$Q^π(s, a)$**. Some authors indicate that there is time involved with **$V_t(s)$** and **$Q_t(s, a)$**. Many authors use the expectation operator $\mathbb{E}$ or $\mathbb{E}_{ \pi}$.
 
-**Policy Notation**: The function that the agent uses to make decisions or the policy function or simply the policy is denoted as **$π$**. Written more verbosely as **$π(a∣s)$** which represents the probabilies of taking each action for a single given state of $s$. An input of $s$ will generate some list of probabilities for every available $a$. Deterministic policy functions may be labelled as **$μ(s)$** by some authors, where there is only one $a$ output possible for a given $s$. Some authors use **$π_θ$** or **$π_θ(a∣s)$** to indicate that there are values of θ altering the function π.
+**Policy Notation**: The function that the agent uses to make decisions or the policy function or simply the policy is denoted as **$π$**. Written more verbosely as **$π(a∣s)$** which represents the probability of taking action **$a$** for a single given state of $s$. An input of $s$ will generate some list of probabilities for every available $a$. Deterministic policy functions may be labelled as **$μ(s)$** by some authors, where there is only one $a$ output possible for a given $s$. Some authors use **$π_θ$** or **$π_θ(a∣s)$** to indicate that there are values of θ altering the function π.
+
+The neural network that represents **$π(a∣s)$** will output a vector that sums to 1. If we have three actions, we have three outputs for each action for a state we use as input into the neural network:
+$π(a_1∣s)+π(a_2∣s)+π(a_3∣s)=1$
+
+The policy function is state dependent. We can sample an action from the distribution of probabilities or simply take a deterministic approach and select the action with the highest probability, or use a combination of both approaches.
 
 **Reward or Return**: Typically denoted with $r$ or $R$, some choose to use $R_t$ to be explicit with time, which is not needed. Some use $G$ and $G_t$ instead of $R$. The discount factor in reward calculations is typically denoted as $γ$ but some use $β$ or other symbols.
+
+**Summary List of Some Basic Symbols:**
+**$s$** **$x$** **$S_t$** **$s_t$**
+**$A$** **$A_t$** **$a$** **$u$**
+**$π$** **$π_θ$** **$π(s)$** **$μ(s)$** **$π(a∣s)$**
+**$V(s)$** **$V^π(s)$**
+**$Q(s, a)$** **$Q^π(s, a)$**
 
 ### Markov Decision Processes:
 
